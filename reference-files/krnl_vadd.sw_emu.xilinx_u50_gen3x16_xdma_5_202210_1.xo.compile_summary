@@ -1,0 +1,166 @@
+<ENTRY>
+{
+ "thisFile": "/mnt/HLSNAS/04.fOjdzH/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xo.compile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Fri Oct 14 00:04:20 2022",
+ "timestampMillis": "1665677060291",
+ "buildStep": {
+  "cmdId": "7bd217aa-2b89-4f34-bc6a-16d3c58e1431",
+  "name": "v++",
+  "logFile": "/mnt/HLSNAS/04.fOjdzH/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1/krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.steps.log",
+  "commandLine": "/opt/Xilinx/Vitis/2022.1/bin/unwrapped/lnx64.o/v++  --vivado.prop \"run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\" -t sw_emu --platform xilinx_u50_gen3x16_xdma_5_202210_1 -g -c -k krnl_vadd -Isrc/kernel_cpp -okrnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xo src/kernel_cpp/krnl_vadd.cpp ",
+  "args": [
+   "-t",
+   "sw_emu",
+   "--platform",
+   "xilinx_u50_gen3x16_xdma_5_202210_1",
+   "-g",
+   "-c",
+   "-k",
+   "krnl_vadd",
+   "-Isrc/kernel_cpp",
+   "-okrnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xo",
+   "src/kernel_cpp/krnl_vadd.cpp"
+  ],
+  "iniFiles": [],
+  "cwd": "/mnt/HLSNAS/04.fOjdzH/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Oct 14 00:04:20 2022",
+ "timestampMillis": "1665677060293",
+ "status": {
+  "cmdId": "7bd217aa-2b89-4f34-bc6a-16d3c58e1431",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Fri Oct 14 00:04:23 2022",
+ "timestampMillis": "1665677063690",
+ "buildSummary": {
+  "hardwarePlatform": "xilinx_u50_gen3x16_xdma_5_202210_1.xpfm",
+  "hardwareDsa": "",
+  "platformDirectory": "/opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_5_202210_1",
+  "runtime": "OpenCL",
+  "systemConfig": "Linux",
+  "flow": "BF_COMPILE",
+  "target": "TT_SW_EMU",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "krnl_vadd",
+     "file": "/mnt/HLSNAS/04.fOjdzH/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1.xo",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/mnt/HLSNAS/04.fOjdzH/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/src/kernel_cpp/krnl_vadd.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "Vitis V++ Compiler Release 2022.1. SW Build 3524075 on 2022-04-13-17:42:45"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Fri Oct 14 00:04:23 2022",
+ "timestampMillis": "1665677063696",
+ "buildStep": {
+  "cmdId": "174d33cf-b9a1-4875-afbf-0e89831d6cb5",
+  "name": "vitis_hls",
+  "logFile": "/mnt/HLSNAS/04.fOjdzH/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1/krnl_vadd/vitis_hls.log",
+  "commandLine": "vitis_hls -f /mnt/HLSNAS/04.fOjdzH/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1/krnl_vadd/krnl_vadd.tcl -messageDb vitis_hls.pb",
+  "args": [
+   "vitis_hls",
+   "-f",
+   "/mnt/HLSNAS/04.fOjdzH/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1/krnl_vadd/krnl_vadd.tcl",
+   "-messageDb",
+   "vitis_hls.pb"
+  ],
+  "iniFiles": [],
+  "cwd": "/mnt/HLSNAS/04.fOjdzH/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Oct 14 00:04:23 2022",
+ "timestampMillis": "1665677063697",
+ "status": {
+  "cmdId": "174d33cf-b9a1-4875-afbf-0e89831d6cb5",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Oct 14 00:04:31 2022",
+ "timestampMillis": "1665677071191",
+ "status": {
+  "cmdId": "174d33cf-b9a1-4875-afbf-0e89831d6cb5",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Oct 14 00:04:31 2022",
+ "timestampMillis": "1665677071801",
+ "report": {
+  "path": "/mnt/HLSNAS/04.fOjdzH/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/reports/krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1/v++_compile_krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Oct 14 00:04:31 2022",
+ "timestampMillis": "1665677071803",
+ "report": {
+  "path": "/mnt/HLSNAS/04.fOjdzH/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/reference-files/_x/v++_compile_krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1_guidance.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Oct 14 00:04:31 2022",
+ "timestampMillis": "1665677071810",
+ "status": {
+  "cmdId": "7bd217aa-2b89-4f34-bc6a-16d3c58e1431",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>

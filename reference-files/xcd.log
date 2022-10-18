@@ -1,0 +1,128 @@
+Fri Oct 14 00:04:10 2022: Running xcd server. This server was built by gradle.
+Fri Oct 14 00:04:10 2022: Server was asked to start on port: '44855'
+Fri Oct 14 00:04:10 2022: Server is using token UUID: '731c961c-d918-4f1b-b917-7eae7ec1646c'
+Fri Oct 14 00:04:10 2022: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Fri Oct 14 00:04:10 2022: Attempting to start server on port '44855'
+Fri Oct 14 00:04:10 2022: XCD main fifo: created main fifo '/tmp/xcdmain731c961c-d918-4f1b-b917-7eae7ec1646c', fd read = 13
+Fri Oct 14 00:04:10 2022: Running Dispatch Server
+Fri Oct 14 00:04:10 2022: Version 2.2.0
+Fri Oct 14 00:04:20 2022: Dispatch Server: Accepted socket connection from client
+Fri Oct 14 00:04:20 2022: Starting Socket connection
+Fri Oct 14 00:04:20 2022: EXCHANGE_TOKEN received, server token: 731c961c-d918-4f1b-b917-7eae7ec1646c, passed token: 731c961c-d918-4f1b-b917-7eae7ec1646c
+Fri Oct 14 00:04:20 2022: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Fri Oct 14 00:04:20 2022: SESSION_MGR: creating session with session uuid: '67371d5b-69de-45f3-9a6b-47df3a9e9b2b' and name 'v++_compile_krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1'
+Fri Oct 14 00:04:20 2022: KERNEL_SVC: creating session with uuid: '67371d5b-69de-45f3-9a6b-47df3a9e9b2b' and name 'v++_compile_krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1'
+Fri Oct 14 00:04:20 2022: GUIDANCE_SMGR: creating guidance session with uuid: '67371d5b-69de-45f3-9a6b-47df3a9e9b2b' and name 'v++_compile_krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1'
+Fri Oct 14 00:04:20 2022: SYSTEM_DIAGRAM: creating session with uuid: '67371d5b-69de-45f3-9a6b-47df3a9e9b2b' and name 'v++_compile_krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1'
+Fri Oct 14 00:04:31 2022: SESSION_MGR: closing session for UUID '67371d5b-69de-45f3-9a6b-47df3a9e9b2b' with name 'v++_compile_krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1'
+Fri Oct 14 00:04:31 2022: KERNEL_SVC: closing session for UUID '67371d5b-69de-45f3-9a6b-47df3a9e9b2b' with name 'v++_compile_krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1'
+Fri Oct 14 00:04:31 2022: GUIDANCE_SMGR: closing session for UUID '67371d5b-69de-45f3-9a6b-47df3a9e9b2b' with name 'v++_compile_krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1'
+Fri Oct 14 00:04:31 2022: SYSTEM_DIAGRAM: closing session for UUID '67371d5b-69de-45f3-9a6b-47df3a9e9b2b' with name 'v++_compile_krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1'
+Fri Oct 14 00:04:31 2022: STOP_SERVER received, server token: 731c961c-d918-4f1b-b917-7eae7ec1646c, passed token: 731c961c-d918-4f1b-b917-7eae7ec1646c
+Fri Oct 14 00:04:31 2022: Socket received request to stop server.
+Fri Oct 14 00:04:31 2022: Dispatch Server: do_await_stop
+Fri Oct 14 00:04:31 2022: Dispatch Server: stopping mainFifo_
+Fri Oct 14 00:04:31 2022: XCD main fifo: Stopping
+Fri Oct 14 00:04:31 2022: XCD main fifo: do_read error code: Operation canceled
+Fri Oct 14 00:04:31 2022: XCD main fifo: bytes_transferred: 0
+Fri Oct 14 00:04:31 2022: SERVER: destructor for server bound to port 44855
+Fri Oct 14 00:04:31 2022: XCD main fifo: Good unlink of /tmp/xcdmain731c961c-d918-4f1b-b917-7eae7ec1646c
+Fri Oct 14 00:04:31 2022: Server exiting with status 0.
+Fri Oct 14 00:04:31 2022: Closing log file.
+Fri Oct 14 00:04:33 2022: Running xcd server. This server was built by gradle.
+Fri Oct 14 00:04:33 2022: Server was asked to start on port: '37517'
+Fri Oct 14 00:04:33 2022: Server is using token UUID: 'bf58010f-314c-4fc5-8fff-57a2ac133b99'
+Fri Oct 14 00:04:33 2022: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Fri Oct 14 00:04:33 2022: Attempting to start server on port '37517'
+Fri Oct 14 00:04:33 2022: XCD main fifo: created main fifo '/tmp/xcdmainbf58010f-314c-4fc5-8fff-57a2ac133b99', fd read = 13
+Fri Oct 14 00:04:33 2022: Running Dispatch Server
+Fri Oct 14 00:04:33 2022: Version 2.2.0
+Fri Oct 14 00:04:42 2022: Dispatch Server: Accepted socket connection from client
+Fri Oct 14 00:04:42 2022: Starting Socket connection
+Fri Oct 14 00:04:42 2022: EXCHANGE_TOKEN received, server token: bf58010f-314c-4fc5-8fff-57a2ac133b99, passed token: bf58010f-314c-4fc5-8fff-57a2ac133b99
+Fri Oct 14 00:04:42 2022: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Fri Oct 14 00:04:42 2022: SESSION_MGR: creating session with session uuid: '825f71ce-503d-4d3d-837e-5e2c1f45101c' and name 'v++_link_krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1'
+Fri Oct 14 00:04:42 2022: KERNEL_SVC: creating session with uuid: '825f71ce-503d-4d3d-837e-5e2c1f45101c' and name 'v++_link_krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1'
+Fri Oct 14 00:04:42 2022: GUIDANCE_SMGR: creating guidance session with uuid: '825f71ce-503d-4d3d-837e-5e2c1f45101c' and name 'v++_link_krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1'
+Fri Oct 14 00:04:42 2022: SYSTEM_DIAGRAM: creating session with uuid: '825f71ce-503d-4d3d-837e-5e2c1f45101c' and name 'v++_link_krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1'
+Fri Oct 14 00:04:49 2022: SESSION_MGR: closing session for UUID '825f71ce-503d-4d3d-837e-5e2c1f45101c' with name 'v++_link_krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1'
+Fri Oct 14 00:04:49 2022: KERNEL_SVC: closing session for UUID '825f71ce-503d-4d3d-837e-5e2c1f45101c' with name 'v++_link_krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1'
+Fri Oct 14 00:04:49 2022: GUIDANCE_SMGR: closing session for UUID '825f71ce-503d-4d3d-837e-5e2c1f45101c' with name 'v++_link_krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1'
+Fri Oct 14 00:04:49 2022: SYSTEM_DIAGRAM: closing session for UUID '825f71ce-503d-4d3d-837e-5e2c1f45101c' with name 'v++_link_krnl_vadd.sw_emu.xilinx_u50_gen3x16_xdma_5_202210_1'
+Fri Oct 14 00:04:49 2022: STOP_SERVER received, server token: bf58010f-314c-4fc5-8fff-57a2ac133b99, passed token: bf58010f-314c-4fc5-8fff-57a2ac133b99
+Fri Oct 14 00:04:49 2022: Socket received request to stop server.
+Fri Oct 14 00:04:49 2022: Dispatch Server: do_await_stop
+Fri Oct 14 00:04:49 2022: Dispatch Server: stopping mainFifo_
+Fri Oct 14 00:04:49 2022: XCD main fifo: Stopping
+Fri Oct 14 00:04:49 2022: XCD main fifo: do_read error code: Operation canceled
+Fri Oct 14 00:04:49 2022: XCD main fifo: bytes_transferred: 0
+Fri Oct 14 00:04:49 2022: SERVER: destructor for server bound to port 37517
+Fri Oct 14 00:04:49 2022: XCD main fifo: Good unlink of /tmp/xcdmainbf58010f-314c-4fc5-8fff-57a2ac133b99
+Fri Oct 14 00:04:49 2022: Server exiting with status 0.
+Fri Oct 14 00:04:49 2022: Closing log file.
+Fri Oct 14 00:24:43 2022: Running xcd server. This server was built by gradle.
+Fri Oct 14 00:24:43 2022: Server was asked to start on port: '46397'
+Fri Oct 14 00:24:43 2022: Server is using token UUID: '7019f14d-b70b-4e66-8f0c-9ac341298496'
+Fri Oct 14 00:24:43 2022: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Fri Oct 14 00:24:43 2022: Attempting to start server on port '46397'
+Fri Oct 14 00:24:43 2022: XCD main fifo: created main fifo '/tmp/xcdmain7019f14d-b70b-4e66-8f0c-9ac341298496', fd read = 13
+Fri Oct 14 00:24:43 2022: Running Dispatch Server
+Fri Oct 14 00:24:43 2022: Version 2.2.0
+Fri Oct 14 00:24:53 2022: Dispatch Server: Accepted socket connection from client
+Fri Oct 14 00:24:53 2022: Starting Socket connection
+Fri Oct 14 00:24:53 2022: EXCHANGE_TOKEN received, server token: 7019f14d-b70b-4e66-8f0c-9ac341298496, passed token: 7019f14d-b70b-4e66-8f0c-9ac341298496
+Fri Oct 14 00:24:53 2022: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Fri Oct 14 00:24:53 2022: SESSION_MGR: creating session with session uuid: 'f70bf601-1f97-4124-a39c-e9930bad0f1e' and name 'v++_compile_krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1'
+Fri Oct 14 00:24:53 2022: KERNEL_SVC: creating session with uuid: 'f70bf601-1f97-4124-a39c-e9930bad0f1e' and name 'v++_compile_krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1'
+Fri Oct 14 00:24:53 2022: GUIDANCE_SMGR: creating guidance session with uuid: 'f70bf601-1f97-4124-a39c-e9930bad0f1e' and name 'v++_compile_krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1'
+Fri Oct 14 00:24:53 2022: SYSTEM_DIAGRAM: creating session with uuid: 'f70bf601-1f97-4124-a39c-e9930bad0f1e' and name 'v++_compile_krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1'
+Fri Oct 14 00:25:20 2022: SESSION_MGR: closing session for UUID 'f70bf601-1f97-4124-a39c-e9930bad0f1e' with name 'v++_compile_krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1'
+Fri Oct 14 00:25:20 2022: KERNEL_SVC: closing session for UUID 'f70bf601-1f97-4124-a39c-e9930bad0f1e' with name 'v++_compile_krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1'
+Fri Oct 14 00:25:20 2022: GUIDANCE_SMGR: closing session for UUID 'f70bf601-1f97-4124-a39c-e9930bad0f1e' with name 'v++_compile_krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1'
+Fri Oct 14 00:25:20 2022: SYSTEM_DIAGRAM: closing session for UUID 'f70bf601-1f97-4124-a39c-e9930bad0f1e' with name 'v++_compile_krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1'
+Fri Oct 14 00:25:20 2022: STOP_SERVER received, server token: 7019f14d-b70b-4e66-8f0c-9ac341298496, passed token: 7019f14d-b70b-4e66-8f0c-9ac341298496
+Fri Oct 14 00:25:20 2022: Socket received request to stop server.
+Fri Oct 14 00:25:20 2022: Dispatch Server: do_await_stop
+Fri Oct 14 00:25:20 2022: Dispatch Server: stopping mainFifo_
+Fri Oct 14 00:25:20 2022: XCD main fifo: Stopping
+Fri Oct 14 00:25:20 2022: XCD main fifo: do_read error code: Operation canceled
+Fri Oct 14 00:25:20 2022: XCD main fifo: bytes_transferred: 0
+Fri Oct 14 00:25:20 2022: SERVER: destructor for server bound to port 46397
+Fri Oct 14 00:25:20 2022: XCD main fifo: Good unlink of /tmp/xcdmain7019f14d-b70b-4e66-8f0c-9ac341298496
+Fri Oct 14 00:25:20 2022: Server exiting with status 0.
+Fri Oct 14 00:25:20 2022: Closing log file.
+Fri Oct 14 00:25:22 2022: Running xcd server. This server was built by gradle.
+Fri Oct 14 00:25:22 2022: Server was asked to start on port: '35607'
+Fri Oct 14 00:25:22 2022: Server is using token UUID: '88e36b80-e4be-4e5e-8e86-7b5614b08986'
+Fri Oct 14 00:25:22 2022: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Fri Oct 14 00:25:22 2022: Attempting to start server on port '35607'
+Fri Oct 14 00:25:22 2022: XCD main fifo: created main fifo '/tmp/xcdmain88e36b80-e4be-4e5e-8e86-7b5614b08986', fd read = 13
+Fri Oct 14 00:25:22 2022: Running Dispatch Server
+Fri Oct 14 00:25:22 2022: Version 2.2.0
+Fri Oct 14 00:25:31 2022: Dispatch Server: Accepted socket connection from client
+Fri Oct 14 00:25:31 2022: Starting Socket connection
+Fri Oct 14 00:25:31 2022: EXCHANGE_TOKEN received, server token: 88e36b80-e4be-4e5e-8e86-7b5614b08986, passed token: 88e36b80-e4be-4e5e-8e86-7b5614b08986
+Fri Oct 14 00:25:31 2022: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Fri Oct 14 00:25:31 2022: SESSION_MGR: creating session with session uuid: 'a5988f12-3c8d-4075-be7f-4efaa24d8a6f' and name 'v++_link_krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1'
+Fri Oct 14 00:25:31 2022: KERNEL_SVC: creating session with uuid: 'a5988f12-3c8d-4075-be7f-4efaa24d8a6f' and name 'v++_link_krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1'
+Fri Oct 14 00:25:31 2022: GUIDANCE_SMGR: creating guidance session with uuid: 'a5988f12-3c8d-4075-be7f-4efaa24d8a6f' and name 'v++_link_krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1'
+Fri Oct 14 00:25:31 2022: SYSTEM_DIAGRAM: creating session with uuid: 'a5988f12-3c8d-4075-be7f-4efaa24d8a6f' and name 'v++_link_krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1'
+Fri Oct 14 00:25:49 2022: Dispatch Server: Accepted socket connection from client
+Fri Oct 14 00:25:49 2022: Starting Socket connection
+Fri Oct 14 00:26:05 2022: Dispatch Server: Accepted socket connection from client
+Fri Oct 14 00:26:05 2022: Starting Socket connection
+Fri Oct 14 00:30:18 2022: SESSION_MGR: closing session for UUID 'a5988f12-3c8d-4075-be7f-4efaa24d8a6f' with name 'v++_link_krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1'
+Fri Oct 14 00:30:18 2022: KERNEL_SVC: closing session for UUID 'a5988f12-3c8d-4075-be7f-4efaa24d8a6f' with name 'v++_link_krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1'
+Fri Oct 14 00:30:18 2022: GUIDANCE_SMGR: closing session for UUID 'a5988f12-3c8d-4075-be7f-4efaa24d8a6f' with name 'v++_link_krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1'
+Fri Oct 14 00:30:18 2022: SYSTEM_DIAGRAM: closing session for UUID 'a5988f12-3c8d-4075-be7f-4efaa24d8a6f' with name 'v++_link_krnl_vadd.hw_emu.xilinx_u50_gen3x16_xdma_5_202210_1'
+Fri Oct 14 00:30:18 2022: STOP_SERVER received, server token: 88e36b80-e4be-4e5e-8e86-7b5614b08986, passed token: 88e36b80-e4be-4e5e-8e86-7b5614b08986
+Fri Oct 14 00:30:18 2022: Socket received request to stop server.
+Fri Oct 14 00:30:18 2022: Dispatch Server: do_await_stop
+Fri Oct 14 00:30:18 2022: Dispatch Server: stopping mainFifo_
+Fri Oct 14 00:30:18 2022: XCD main fifo: Stopping
+Fri Oct 14 00:30:18 2022: XCD main fifo: do_read error code: Operation canceled
+Fri Oct 14 00:30:18 2022: XCD main fifo: bytes_transferred: 0
+Fri Oct 14 00:30:18 2022: SERVER: destructor for server bound to port 35607
+Fri Oct 14 00:30:18 2022: XCD main fifo: Good unlink of /tmp/xcdmain88e36b80-e4be-4e5e-8e86-7b5614b08986
+Fri Oct 14 00:30:18 2022: Server exiting with status 0.
+Fri Oct 14 00:30:18 2022: Closing log file.

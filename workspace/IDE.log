@@ -1,0 +1,9 @@
+00:15:54 DEBUG : Logs will be stored at '/mnt/HLSNAS/04.fOjdzH/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/workspace/IDE.log'.
+00:15:55 INFO  : Launching XSCT server: xsct -n  -interactive /mnt/HLSNAS/04.fOjdzH/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/02-mixing-c-rtl-kernels/workspace/temp_xsdb_launch_script.tcl
+00:15:55 INFO  : Registering command handlers for Vitis TCF services
+00:15:55 INFO  : Platform repository initialization has completed.
+00:15:57 INFO  : XSCT server has started successfully.
+00:15:57 INFO  : Successfully done setting XSCT server connection channel  
+00:15:57 INFO  : plnx-install-location is set to ''
+00:15:57 INFO  : Successfully done query RDI_DATADIR 
+00:15:57 INFO  : Successfully done setting workspace for the tool. 
